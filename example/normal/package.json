@@ -1,0 +1,16 @@
+{
+  "name": "normal",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "bite": "file:../.."
+  },
+  "scripts": {
+    "dev": "bite dev",
+    "build": "bite build"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
